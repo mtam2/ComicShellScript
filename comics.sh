@@ -9,4 +9,4 @@ curl http://www.smbc-comics.com/rss.php > smbc.html
 curl `grep -o -m 1 'http.*png' smbc.html` > smbc.png
 
 curl http://feeds.feedburner.com/DogEatDoug > ded.html
-curl `grep -o -m 5 'http://cdn.alphacomedy.com/5/2015/11.*jpg' ded.html` > ded.jpg
+curl `grep -o -m 5 'http://cdn.alphacomedy.com/.*jpg' ded.html` > ded.jpg
