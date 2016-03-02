@@ -8,5 +8,5 @@ curl `grep -o -m 1 'http.*png' dhd.html` > dhd.png
 curl http://www.smbc-comics.com/rss.php > smbc.html
 curl `grep -o -m 1 'http.*png' smbc.html` > smbc.png
 
-curl http://feeds.feedburner.com/DogEatDoug > ded.html
-curl `grep -o -m 5 'http://cdn.alphacomedy.com/.*jpg' ded.html` > ded.jpg
+# curl http://feeds.feedburner.com/DogEatDoug > ded.html
+# curl `grep -o -m 5 'http://cdn.alphacomedy.com/.*jpg' ded.html` > ded.jpg
